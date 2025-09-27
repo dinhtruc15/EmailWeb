@@ -4,7 +4,7 @@ RUN rm -rf /usr/local/tomcat/webapps/*
 
 COPY Emailweb.war /usr/local/tomcat/webapps/ROOT.war
 
-# Expose cổng 8080
+# Expose cổng 8080  
 EXPOSE 8080
 
 # Khởi động Tomcat
